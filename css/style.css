@@ -1,0 +1,67 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.inter-bold {
+    font-family: "Inter",sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+  }
+  .logo{
+    height: 43px;
+    width: 43px;
+  }
+  
+  .nav-link.active {
+    color: #407BFF !important;
+}
+.language{
+    font-size: 20px;
+    font-weight: 300;
+}
+.animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+  
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  .bt{
+    right: 0%;
+  }
+  .scroll-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: -15px;
+    z-index: 99999;
+    background-color: var(--accent-color);
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    transition: all 0.4s;
+  }
+  .bg-secondary-2{
+    background-color: #FAF7F7;
+    border-radius: 10%;
+  }
+  .colon{
+    border-radius: 10%;
+   
+  }
+  .batt{
+    bottom: -2px;
+  }
+
+ 

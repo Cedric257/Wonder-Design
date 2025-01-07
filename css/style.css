@@ -25,7 +25,7 @@ body {
     font-weight: 300;
 }
 .animated {
-    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    animation: up-down 2s ease-in-out;
   }
   @keyframes up-down {
     0% {
@@ -62,6 +62,7 @@ body {
   }
   .batt{
     bottom: -2px;
+   
   }
 
  
